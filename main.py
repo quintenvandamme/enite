@@ -1,7 +1,12 @@
+# import libs
 import discord
 import os
 
-VERSION = "0.1.1"
+# version
+VERSION = "0.1.2"
+
+GITHUB = "https://github.com/HexaOneOfficial/enite"
+
 
 client = discord.Client()
 
@@ -17,4 +22,7 @@ async def on_message(message):
   if message.content.startswith('/version'):
     await message.channel.send(VERSION)
 
-client.run(os.getenv('TOKEN'))
+  if message.content.startswith('/github'):
+    await message.channel.send(GITHUB)
+
+client.run(os.getenv('TOKEN')) 
