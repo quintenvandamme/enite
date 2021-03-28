@@ -4,7 +4,7 @@ import os
 from keep_alive import keep_alive
 
 # version
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 GITHUB = "https://github.com/HexaOneOfficial/enite"
 
 client = discord.Client()
