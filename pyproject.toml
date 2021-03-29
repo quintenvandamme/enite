@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "enite"
-version = "0.1.0"
+version = "0.1.5"
 description = ""
 authors = ["repl.it user <replituser@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 discord = "^1.0.1"
 flask = "^1.1.2"
 
