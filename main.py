@@ -4,7 +4,7 @@ import random
 import time
 from keep_alive import keep_alive
 from discord.ext import commands
-sys.path.append('/home/quinten/bot/')
+sys.path.append('/mnt/disk1/bot/')
 from TOKEN_ENITE import token
 import datetime
 
