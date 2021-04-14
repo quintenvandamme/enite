@@ -38,7 +38,7 @@ async def on_message(message):
   guild_id = client.get_guild(753325735137116362)
 
   # mod users
-  mod_users = ["hexa#0069","Lars#8503","Twg#9531"]
+  mod_users = ["hexa#0069","Lars#8503","Twg#6969"]
   
   # commands
   if message.author == client.user:
