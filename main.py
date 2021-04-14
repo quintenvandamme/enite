@@ -7,8 +7,8 @@ from discord.ext import commands
 import datetime
 
 # version
-VERSION = "0.1.7"
-SOURCE = "https://github.com/HexaOneOfficial/enite"
+VERSION = "0.1.8"
+SOURCE = "https://github.com/hexa-one/enite"
 
 # commands_id
 MEOW = "meow :cat2: :cat2:"
@@ -27,7 +27,7 @@ async def on_ready():
   channel = client.get_channel(826049329755586592)
   await channel.send(f"""```Ready```""")
 
-activity = discord.Game(name="Being a cat")
+activity = discord.Game(name="Meow")
 
 @client.event  
 async def on_message(message):
@@ -36,7 +36,7 @@ async def on_message(message):
   guild_id = client.get_guild(753325735137116362)
 
   # mod users
-  mod_users = ["hexa#8439","Lars#8503","Twg#9531"]
+  mod_users = ["hexa#0069","Lars#8503","Twg#9531"]
   
   # commands
   if message.author == client.user:
