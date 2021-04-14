@@ -1,9 +1,11 @@
 import discord
-import os
+import sys
 import random
 import time
 from keep_alive import keep_alive
 from discord.ext import commands
+sys.path.append('/home/quinten/bot/')
+from TOKEN_ENITE import token
 import datetime
 
 # version
@@ -106,4 +108,5 @@ async def on_member_join(member):
 
 keep_alive()
 
-client.run(os.getenv('TOKEN')) 
+client.run(token)
+
