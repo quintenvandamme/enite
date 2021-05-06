@@ -98,6 +98,8 @@ async def on_message(message):
     channel = client.get_channel(826049329755586592)
   if message.content.startswith('/'):
     await channel.send(f"""```User:{message.author} tried {message.content} in #{message.channel}```""")
+  if message.content.startswith('!'):
+    await channel.send(f"""```User:{message.author} tried {message.content} in #{message.channel}```""")
 
 # welcome users
 @client.event
