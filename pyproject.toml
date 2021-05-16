@@ -4,10 +4,10 @@ requires = ["poetry>=0.12"]
 
 [tool]
 [tool.poetry]
-authors = ["repl.it user <replituser@example.com>"]
+authors = ["Quinten <quinten-vd@outlook-com>"]
 description = ""
 name = "enite"
-version = "0.1.8"
+version = "0.1.9"
 [tool.poetry.dependencies]
 discord = "^1.0.1"
 flask = "^1.1.2"
